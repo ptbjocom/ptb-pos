@@ -1,0 +1,135 @@
+{
+    "menu":{
+        "welcome": "Welcome",
+        "home": "Store POS",
+        "manage": "Manage Store",
+        "manage-stores": "Manage All Stores",
+        "language": "Language",
+        "logout": "Logout"
+    },
+    "login": {
+        "store-name": "PTB POS",
+        "username": "username",
+        "password": "password",
+        "btn-login": "LOGIN",
+        "forget-pass" : "Forget My Password",
+        "forget-pass-info": "Reset password is only available for Store Administrator, please contact your store administrator."
+    },
+    "home": {
+        "link-direct-sell": "Direct Sell",
+        "link-category-sell": "Categories Sell",
+        "link-inquiry-invoice": "Inquiry Invoice",
+        "link-print-invoice": "print Invoice",
+        "link-admin": "Store Management",
+        "link-categories" :"Categories & Groups",
+        "link-brands" :"Brands",
+        "link-items" :"Store Products",
+        "link-users": "Manage Cashiers",
+        "desc-direct-sell": "Selling products directly using BarCode",
+        "desc-category-sell": "Selling products through categories, like Restaurants and Cafes",
+        "desc-inquiry-invoice": "Search for specific invoice using its number",
+        "desc-print-invoice": "Print invoice with specific information",
+        "desc-admin": "Manage the store products, categories and Brands",
+        "desc-categories" :"You can divide and classify your products into groups or categories according to the nature of your business",
+        "desc-brands" :"You can identify the brands you sell and associate them with your products",
+        "desc-items" :"Adding and following up on the store's products and the quantities available in the store",
+        "desc-users" :"Add new or edit existing cashiers"
+    },
+    "barCode": "BarCode",
+    "item-title": "Title",
+    "unit-price": "Unit Price",
+    "quantity": "Quantity",
+    "discount": "Discount",
+    "net-price": "Net Price",
+    "total-items": "Total Items",
+    "invoice":{
+        "title": "Invoice",
+        "invoiceNo": "Invoice No",
+        "issuedBy":"Issued By",
+        "subTotal": "Sub Total",
+        "vat": "VAT",
+        "total": "Total",
+        "itemsCount": "Items Count",
+        "discount": "Discount",
+        "paidAmount": "Paid Amount",
+        "paymentMethod":"Patment Method",
+        "cash": "Cash",
+        "visa": "Credit Card",
+        "paymentCardNo": "Credit Card No",
+        "on-hold-invoices": "On Hold Invoices",
+        "invoice-search": "Enter the Invoice No to search for",
+        "change-qty": "Qty",
+        "change-price": "Payment"
+    },
+    "button": {
+        "add": "Add",
+        "update": "Update",
+        "delete" :"Delete",
+        "save": "Save",
+        "search": "search",
+        "cancel" :"Cancel",
+        "on-hold": "On Hold",
+        "pay-print": "Pay & Print",
+        "print": "Print"
+    },
+    "pagination":{
+        "next": "Next",
+        "prev": "Previous"
+    },
+    "category":{
+        "page-title": "Manage Categories"
+    },
+    "brand":{
+        "page-title": "Manage Brands",
+        "store-brands": "Store Brands",
+        "root": "Root Brand",
+        "add-brand": "Add new Brand",
+        "edit-brand": "Edit existing Brand"
+    },
+    "item":{
+        "page-title": "Add/Edit Store Item",
+        "new-item": "Add New Item",
+        "title": "Title",
+        "description": "Description",
+        "sn": "S/N",
+        "bar-code": "Bar Code",
+        "qty": "Stock Quantity",
+        "costprice": "Cost Price",
+        "price": "Selling Price",
+        "discount": "Discount",
+        "category": "Category",
+        "brand": "Brand",
+        "image": "Product Image",
+        "available": "Available for Sell",
+        "profit": "Profit",
+        "profitfterDiscount": "Profit after discount",
+        "priceAfterDiscount": "Price after discount",
+        "out-of-stock": "Out of Stock"
+    },
+    "items":{
+        "page-title":"Store Products",
+        "filter": "Filter Items",
+        "filter-barcode": "By BarCode",
+        "filter-title": "By Title",
+        "filter-stkqty": "Quantity less than or equal"
+    },
+    "print-invoice":{
+        "page-title": "Print Simplified Tax Invoice",
+        "invoiceNo": "Invoice No",
+        "invoiceDate": "Invoice Date",
+        "totalWithVat": "Total With VAT"
+    },
+    "users":{
+        "page-title": "Cashiers Management",
+        "new-user": "Set/Update Cashier",
+        "username": "Username",
+        "password": "Password",
+        "fullname":"Full Name",
+        "mobile": "Mobile",
+        "status": "Account Status",
+        "active": "Active",
+        "inactive": "Inactive",
+        "make-active": "Make Active",
+        "make-inactive": "Make Inactive"
+    }
+}

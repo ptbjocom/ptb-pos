@@ -1,0 +1,135 @@
+{
+    "menu": {
+        "welcome": "مرحباً بك",
+        "home": "منصة البيع",
+        "manage": "إدارة المتجر",
+        "manage-stores": "إدارة المتاجر",
+        "language": "اللغة",
+        "logout": "خروج"
+    },
+    "login": {
+        "store-name":"منصة بيع PTB",
+        "username": "اسم المستخدم",
+        "password": "كلمة السر",
+        "btn-login": "دخول",
+        "forget-pass" : "نسيت كلمة السر",
+        "forget-pass-info": "إعادة تعيين كلمة السر متاحة فقط لمدير النظام، يرجى التواصل مع مدير النظام لدى متجرك."
+    },
+    "home": {
+        "link-direct-sell": "البيع المباشر",
+        "link-category-sell": "البيع حسب الفئات",
+        "link-inquiry-invoice": "استعلام عن فاتورة",
+        "link-print-invoice": "طباعة فاتورة",
+        "link-admin": "إدارة المتجر",
+        "link-categories": "الفئات و المجموعات",
+        "link-brands": "العلامات التجارية",
+        "link-items": "منتجات المتجر",
+        "link-users": "إدارة المحاسبين",
+        "desc-direct-sell": "مناسب للبيع المباشر من خلال رقم المنتج",
+        "desc-category-sell": "مناسب للبيع من خلال تصنيف المنتجات كالمطاعم و الكافيه",
+        "desc-inquiry-invoice": "استعلام عن فاتورة محددة حسب رقم الفاتورة",
+        "desc-print-invoice": "طباعة فاتورة محددة حسب بيانات الفاتورة",
+        "desc-admin": "إدارة المنتجات و تصنيفها و العلامات التجارية",
+        "desc-categories": "يمكنك تقسيم منتجاتك و تصنيفها إلى مجموعات أو فئات حسب طبيعة عملك",
+        "desc-brands": "يمكنك تحديد العلامات التجارية التي تبيعها و ربطها بالمنتجات",
+        "desc-items": "إضافة و متابعة منتجات المتجر و الكميات المتوفرة في المخزن",
+        "desc-users" :"إضافة أو تعديل بيانات المحاسبين"
+    },
+    "barCode": "رقم المنتج",
+    "item-title": "اسم المنتج",
+    "unit-price": "سعر الوحدة",
+    "quantity": "الكمية",
+    "discount": "الخصم",
+    "net-price": "السعر النهائي",
+    "total-items": "مجموع المنتجات",
+    "invoice": {
+        "title": "الفاتورة",
+        "invoiceNo": "رقم الفاتورة",
+        "issuedBy": "صدرت بواسطة",
+        "subTotal": "المجموع",
+        "vat": "قيمة الضريبة",
+        "total": "المجموع النهائي",
+        "itemsCount": "عدد المنتجات",
+        "discount": "قيمة الخصم",
+        "paidAmount": "المبلغ المطلوب",
+        "paymentMethod": "طريقة الدفع",
+        "cash": "دفع نقدي",
+        "visa": "بطاقة ائتمانية",
+        "paymentCardNo": "رقم البطاقة الائتمانية",
+        "on-hold-invoices": "الفواتير المُعلقة",
+        "invoice-search": "أدخل رقم الفاتورة للبحث عنها",
+        "change-qty": "الكمية",
+        "change-price": "قيمة البيع"
+    },
+    "button": {
+        "add": "إضافة",
+        "update": "تعديل",
+        "delete": "حذف",
+        "save": "حفظ",
+        "search": "بحث",
+        "cancel": "إلغاء",
+        "on-hold": "حفظ فقط",
+        "pay-print": "دفع و طباعة",
+        "print": "طباعة"
+    },
+    "pagination": {
+        "next": "التالي",
+        "prev": "السابق"
+    },
+    "category": {
+        "page-title": "إدارة الفئات"
+    },
+    "brand": {
+        "page-title": "إدارة العلامات التجارية",
+        "store-brands": "العلامات التجارية",
+        "root": "علامة رئيسية",
+        "add-brand": "إضافة علامة تجارية",
+        "edit-brand": "تعديل علامة تجارية"
+    },
+    "item": {
+        "page-title": "إضافة/تعديل منتج",
+        "new-item": "أضف منتج جديد",
+        "title": "اسم المنتج",
+        "description": "وصف المنتج",
+        "sn": "رقم المنتج",
+        "bar-code": "رمز المنتج (BarCode)",
+        "qty": "الكمية المتوفرة",
+        "costprice": "سعر التكلفة",
+        "price": "سعر البيع",
+        "discount": "نسبة الخصم",
+        "category": "الفئة",
+        "brand": "العلامة التجارية",
+        "image": "صورة المنتج",
+        "available": "متوفر للبيع؟",
+        "profit": "الربح",
+        "profitfterDiscount": "الربح بعد الخصم",
+        "priceAfterDiscount": "السعر بعد الخصم",
+        "out-of-stock": "غير متوفر"
+    },
+    "items": {
+        "page-title": "قائمة المنتجات",
+        "filter": "فلتر المنتجات",
+        "filter-barcode": "رقم المنتج باركود",
+        "filter-title": "اسم المنتج",
+        "filter-stkqty": "الكمية أقل من أو تساوي"
+    },
+    "print-invoice":{
+        "page-title": "طباعة فاتورة ضريبية مبسطة",
+        "invoiceNo": "رقم الفاتورة",
+        "invoiceDate": "تاريخ الفاتورة",
+        "totalWithVat": "الاجمالي شامل الضريبة"
+    },
+    "users":{
+        "page-title": "التحكم بالمحاسبين",
+        "new-user": "إضافة/تعديل محاسب جديد",
+        "username": "اسم المستخدم",
+        "password": "كلمة السر",
+        "fullname":"اسم المحاسب",
+        "mobile": "رقم الجوال",
+        "status": "حالة الحساب",
+        "active": "فعال",
+        "inactive": "غير فعال",
+        "make-active": "تفعيل الحساب",
+        "make-inactive": "ايقاف الحساب"
+    }
+}

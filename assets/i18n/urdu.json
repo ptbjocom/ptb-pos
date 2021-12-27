@@ -1,0 +1,134 @@
+{
+    "menu": {
+        "welcome": "خوش آمدید",
+        "home": "اسٹور POS",
+        "manage": "اسٹور کا نظم کریں",
+        "language": "زبان",
+        "logout": "لاگ آؤٹ"
+    },
+    "login": {
+        "store-name": "PTB POS",
+        "username": "صارف کا نام",
+        "password": "پاس ورڈ",
+        "btn-login": "لاگ ان",
+        "forget-pass": "میرا پاس ورڈ بھول جاؤ",
+        "forget-pass-info": "پاس ورڈ دوبارہ ترتیب دیں صرف اسٹور ایڈمنسٹریٹر کے لیے دستیاب ہے، براہ کرم اپنے اسٹور ایڈمنسٹریٹر سے رابطہ کریں۔"
+    },
+    "home": {
+        "link-direct-sell": "براہ راست فروخت",
+        "link-category-sell": "کیٹیگریز سیل",
+        "link-inquiry-invoice": "انکوائری انوائس",
+        "link-print-invoice": "پرنٹ انوائس",
+        "link-admin": "اسٹور مینجمنٹ",
+        "link-categories": "کیٹیگریز اور گروپس",
+        "link-brands": "برانڈز",
+        "link-items": "اسٹور پروڈکٹس",
+        "link-users": "کیشیئرز کا نظم کریں",
+        "desc-direct-sell": "بار کوڈ کا استعمال کرتے ہوئے براہ راست پروڈکٹس فروخت کرنا",
+        "desc-category-sell": "کیٹیگریز سیل0",
+        "desc-inquiry-invoice": "کیٹیگریز سیل1",
+        "desc-print-invoice": "کیٹیگریز سیل2",
+        "desc-admin": "کیٹیگریز سیل3",
+        "desc-categories": "کیٹیگریز سیل4",
+        "desc-brands": "کیٹیگریز سیل5",
+        "desc-items": "کیٹیگریز سیل6",
+        "desc-users": "کیٹیگریز سیل7"
+    },
+    "barCode": "بار کوڈ",
+    "item-title": "عنوان",
+    "unit-price": "یونٹ کی قیمت",
+    "quantity": "مقدار",
+    "discount": "رعایت",
+    "net-price": "نیٹ قیمت",
+    "total-items": "کل اشیاء",
+    "invoice": {
+        "title": "انوائس",
+        "invoiceNo": "انوائس نمبر",
+        "issuedBy": "جاری کردہ بذریعہ",
+        "subTotal": "سب ٹوٹل",
+        "vat": "VAT",
+        "total": "کل",
+        "itemsCount": "آئٹمز کی گنتی",
+        "discount": "ڈسکاؤنٹ",
+        "paidAmount": "ادائیگی کی رقم",
+        "paymentMethod": "پیٹمنٹ کا طریقہ",
+        "cash": "انوائس نمبر0",
+        "visa": "انوائس نمبر1",
+        "paymentCardNo": "انوائس نمبر2",
+        "on-hold-invoices": "انوائس نمبر3",
+        "invoice-search": "انوائس نمبر4",
+        "change-qty": "انوائس نمبر5",
+        "change-price": "انوائس نمبر6"
+      },
+      "button": {
+        "add": "شامل کریں",
+        "update": "اپ ڈیٹ کریں",
+        "delete": "حذف کریں",
+        "save": "محفوظ کریں",
+        "search": "تلاش کریں",
+        "cancel": "منسوخ کریں",
+        "on-hold": "روک پر رکھیں",
+        "pay-print": "ادا کریں اور پرنٹ کریں",
+        "print": "پرنٹ کریں"
+      },
+      "pagination": {
+        "next": "اگلا",
+        "prev": "اپ ڈیٹ کریں0"
+      },
+      "category": {
+        "page-title": "اپ ڈیٹ کریں1"
+      },
+      "brand": {
+        "page-title": "برانڈز کا نظم کریں",
+        "store-brands": "اسٹور برانڈز",
+        "root": "روٹ برانڈ",
+        "add-brand": "نیا برانڈ شامل کریں",
+        "edit-brand": "موجودہ برانڈ میں ترمیم کریں"
+      },
+      "item": {
+        "page-title": "اسٹور آئٹم شامل کریں/ترمیم کریں",
+        "new-item": "نئی آئٹم شامل کریں",
+        "title": "عنوان",
+        "description": "تفصیل",
+        "sn": "S/N",
+        "bar-code": "اسٹور برانڈز0",
+        "qty": "اسٹور برانڈز1",
+        "costprice": "اسٹور برانڈز2",
+        "price": "اسٹور برانڈز3",
+        "discount": "اسٹور برانڈز4",
+        "category": "اسٹور برانڈز5",
+        "brand": "اسٹور برانڈز6",
+        "image": "اسٹور برانڈز7",
+        "available": "اسٹور برانڈز8",
+        "profit": "اسٹور برانڈز9",
+        "profitfterDiscount": "روٹ برانڈ0",
+        "priceAfterDiscount": "روٹ برانڈ1",
+        "out-of-stock": "روٹ برانڈ2"
+      },
+      "items": {
+        "page-title": "مصنوعات کو اسٹور کریں",
+        "filter": "آئٹمز کو فلٹر کریں",
+        "filter-barcode": "بار کوڈ کے ذریعے",
+        "filter-title": "بذریعہ عنوان",
+        "filter-stkqty": "مقدار اس سے کم یا برابر"
+      },
+      "print-invoice": {
+        "page-title": "پرنٹ آسان ٹیکس انوائس",
+        "invoiceNo": "انوائس نمبر",
+        "invoiceDate": "انوائس کی تاریخ",
+        "totalWithVat": "VAT کے ساتھ کل"
+      },
+      "users": {
+        "page-title": "کیشئرز مینجمنٹ",
+        "new-user": "کیشیئر سیٹ/اپ ڈیٹ کریں",
+        "username": "صارف کا نام",
+        "password": "پاس ورڈ",
+        "fullname": "پورا نام",
+        "mobile": "موبائل",
+        "status": "اکاؤنٹ اسٹیٹس",
+        "active": "فعال",
+        "inactive": "غیر فعال",
+        "make-active": "میک ایکٹو",
+        "make-inactive": "کیشیئر سیٹ/اپ ڈیٹ کریں0"
+      }
+}
