@@ -131,5 +131,15 @@
         "inactive": "Inactive",
         "make-active": "Make Active",
         "make-inactive": "Make Inactive"
+    },
+    "dashboard": {
+        "selling-summary-title": "Selling Summary",
+        "top-sold-items-title":"Top sold Items",
+        "total": "Total",
+        "items": "Items Sold",
+        "today": "Today",
+        "week": "Week",
+        "month": "Month",
+        "year": "Year"
     }
 }

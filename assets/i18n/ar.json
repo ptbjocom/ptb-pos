@@ -131,5 +131,15 @@
         "inactive": "غير فعال",
         "make-active": "تفعيل الحساب",
         "make-inactive": "ايقاف الحساب"
+    },
+    "dashboard": {
+        "selling-summary-title": "ملخص المبيعات",
+        "top-sold-items-title":"المنتجات الأكثر مبيعاً",
+        "total": "المجموع",
+        "items": "المنتجات المُباعة",
+        "today": "اليوم",
+        "week": "لأسبوع",
+        "month": "لشهر",
+        "year": "لسنة"
     }
 }
