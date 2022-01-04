@@ -13,7 +13,8 @@
         "password": "password",
         "btn-login": "LOGIN",
         "forget-pass" : "Forget My Password",
-        "forget-pass-info": "Reset password is only available for Store Administrator, please contact your store administrator."
+        "forget-pass-info": "Reset password is only available for Store Administrator, please contact your store administrator.",
+        "register-link": "Register your store Information as new user"
     },
     "home": {
         "link-direct-sell": "Direct Sell",
@@ -25,6 +26,7 @@
         "link-brands" :"Brands",
         "link-items" :"Store Products",
         "link-users": "Manage Cashiers",
+        "link-dashboard": "",
         "desc-direct-sell": "Selling products directly using BarCode",
         "desc-category-sell": "Selling products through categories, like Restaurants and Cafes",
         "desc-inquiry-invoice": "Search for specific invoice using its number",
@@ -33,7 +35,8 @@
         "desc-categories" :"You can divide and classify your products into groups or categories according to the nature of your business",
         "desc-brands" :"You can identify the brands you sell and associate them with your products",
         "desc-items" :"Adding and following up on the store's products and the quantities available in the store",
-        "desc-users" :"Add new or edit existing cashiers"
+        "desc-users" :"Add new or edit existing cashiers",
+        "desc-dashboard": "Watch daily, monthly, and yearly selling, with most sold products."
     },
     "barCode": "BarCode",
     "item-title": "Title",
@@ -133,13 +136,20 @@
         "make-inactive": "Make Inactive"
     },
     "dashboard": {
-        "selling-summary-title": "Selling Summary",
+        "selling-summary-title": "Selling Summary for Current Year",
         "top-sold-items-title":"Top sold Items",
+        "yearly-data-title": "Yearly selling (Without VAT)",
         "total": "Total",
         "items": "Items Sold",
         "today": "Today",
-        "week": "Week",
-        "month": "Month",
-        "year": "Year"
+        "week": "This Week",
+        "month": "This Month",
+        "year": "This Year",
+        "monthly-linechart":{
+            "selling": "Selling in month",
+            "revenue": "Revenue in month",
+            "x-axis": "Months of the year",
+            "y-axis": "Total Income"
+        }
     }
 }
