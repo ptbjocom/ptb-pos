@@ -50,6 +50,7 @@
         "title": "الفاتورة",
         "invoiceNo": "رقم الفاتورة",
         "issuedBy": "صدرت بواسطة",
+        "status": "حالة الفاتورة",
         "subTotal": "المجموع",
         "vat": "قيمة الضريبة",
         "total": "المجموع النهائي",
@@ -65,6 +66,11 @@
         "change-qty": "الكمية",
         "change-price": "قيمة البيع"
     },
+    "invoice-status":{
+        "paid": "مدفوعة",
+        "onHold": "مُعلقة",
+        "returned":"مرتجعة"
+    },
     "button": {
         "add": "إضافة",
         "update": "تعديل",
@@ -74,7 +80,10 @@
         "cancel": "إلغاء",
         "on-hold": "حفظ فقط",
         "pay-print": "دفع و طباعة",
-        "print": "طباعة"
+        "print": "طباعة",
+        "return": "إرجاع الفاتورة",
+        "save-new-invoice": "حفظ فاتورة جديدة",
+        "cancel-return": "إلغاء عملية الإرجاع"
     },
     "pagination": {
         "next": "التالي",

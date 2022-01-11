@@ -50,6 +50,7 @@
         "title": "Invoice",
         "invoiceNo": "Invoice No",
         "issuedBy":"Issued By",
+        "status": "Invoice Status",
         "subTotal": "Sub Total",
         "vat": "VAT",
         "total": "Total",
@@ -65,6 +66,11 @@
         "change-qty": "Qty",
         "change-price": "Payment"
     },
+    "invoice-status":{
+        "paid": "ادائیگی",
+        "onHold": "روک پر",
+        "returned": "واپسی"
+    },
     "button": {
         "add": "Add",
         "update": "Update",
@@ -74,7 +80,10 @@
         "cancel" :"Cancel",
         "on-hold": "On Hold",
         "pay-print": "Pay & Print",
-        "print": "Print"
+        "print": "Print",
+        "return": "Return Invoice",
+        "save-new-invoice": "Save new Invoice",
+        "cancel-return": "Cancel return process"
     },
     "pagination":{
         "next": "Next",

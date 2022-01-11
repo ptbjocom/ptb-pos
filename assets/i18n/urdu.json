@@ -50,6 +50,7 @@
         "title": "انوائس",
         "invoiceNo": "انوائس نمبر",
         "issuedBy": "جاری کردہ بذریعہ",
+        "status": "انوائس کی حیثیت",
         "subTotal": "سب ٹوٹل",
         "vat": "VAT",
         "total": "کل",
@@ -65,6 +66,11 @@
         "change-qty": "انوائس نمبر5",
         "change-price": "انوائس نمبر6"
       },
+      "invoice-status":{
+        "paid": "",
+        "onHold": "",
+        "returned":""
+    },
       "button": {
         "add": "شامل کریں",
         "update": "اپ ڈیٹ کریں",
@@ -74,7 +80,10 @@
         "cancel": "منسوخ کریں",
         "on-hold": "روک پر رکھیں",
         "pay-print": "ادا کریں اور پرنٹ کریں",
-        "print": "پرنٹ کریں"
+        "print": "پرنٹ کریں",
+        "return": "واپسی انوائس",
+  "save-new-invoice": "نئی انوائس محفوظ کریں",
+  "cancel-return": "واپسی کا عمل منسوخ کریں"
       },
       "pagination": {
         "next": "اگلا",
