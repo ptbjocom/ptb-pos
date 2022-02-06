@@ -1,5 +1,5 @@
 {
-    "menu":{
+    "menu": {
         "welcome": "Welcome",
         "home": "Store POS",
         "manage": "Manage Store",
@@ -13,7 +13,7 @@
         "username": "username",
         "password": "password",
         "btn-login": "LOGIN",
-        "forget-pass" : "Forget My Password",
+        "forget-pass": "Forget My Password",
         "forget-pass-info": "Reset password is only available for Store Administrator, please contact your store administrator.",
         "register-link": "Register your store Information as new user"
     },
@@ -23,21 +23,23 @@
         "link-inquiry-invoice": "Inquiry Invoice",
         "link-print-invoice": "print Invoice",
         "link-admin": "Store Management",
-        "link-categories" :"Categories & Groups",
-        "link-brands" :"Brands",
-        "link-items" :"Store Products",
+        "link-categories": "Categories & Groups",
+        "link-brands": "Brands",
+        "link-items": "Store Products",
         "link-users": "Manage Cashiers",
-        "link-dashboard": "",
+        "link-dashboard": "Selling Dashboard",
+        "link-inv-template": "Generate Template Invoice",
         "desc-direct-sell": "Selling products directly using BarCode",
         "desc-category-sell": "Selling products through categories, like Restaurants and Cafes",
         "desc-inquiry-invoice": "Search for specific invoice using its number",
         "desc-print-invoice": "Print invoice with specific information",
         "desc-admin": "Manage the store products, categories and Brands",
-        "desc-categories" :"You can divide and classify your products into groups or categories according to the nature of your business",
-        "desc-brands" :"You can identify the brands you sell and associate them with your products",
-        "desc-items" :"Adding and following up on the store's products and the quantities available in the store",
-        "desc-users" :"Add new or edit existing cashiers",
-        "desc-dashboard": "Watch daily, monthly, and yearly selling, with most sold products."
+        "desc-categories": "You can divide and classify your products into groups or categories according to the nature of your business",
+        "desc-brands": "You can identify the brands you sell and associate them with your products",
+        "desc-items": "Adding and following up on the store's products and the quantities available in the store",
+        "desc-users": "Add new or edit existing cashiers",
+        "desc-dashboard": "Watch daily, monthly, and yearly selling, with most sold products.",
+        "desc-inv-template": "Generate an Invoice from pre-defined template"
     },
     "barCode": "BarCode",
     "item-title": "Title",
@@ -46,10 +48,10 @@
     "discount": "Discount",
     "net-price": "Net Price",
     "total-items": "Total Items",
-    "invoice":{
+    "invoice": {
         "title": "Invoice",
         "invoiceNo": "Invoice No",
-        "issuedBy":"Issued By",
+        "issuedBy": "Issued By",
         "status": "Invoice Status",
         "subTotal": "Sub Total",
         "vat": "VAT",
@@ -57,7 +59,7 @@
         "itemsCount": "Items Count",
         "discount": "Discount",
         "paidAmount": "Paid Amount",
-        "paymentMethod":"Patment Method",
+        "paymentMethod": "Patment Method",
         "cash": "Cash",
         "visa": "Credit Card",
         "paymentCardNo": "Credit Card No",
@@ -66,40 +68,42 @@
         "change-qty": "Qty",
         "change-price": "Payment"
     },
-    "invoice-status":{
-        "paid": "ادائیگی",
-        "onHold": "روک پر",
-        "returned": "واپسی"
+    "invoice-status": {
+        "paid": "Paid",
+        "onHold": "On Hold",
+        "returned": "Returned",
+        "canceled": "Canceled"
     },
     "button": {
         "add": "Add",
         "update": "Update",
-        "delete" :"Delete",
+        "delete": "Delete",
         "save": "Save",
         "search": "search",
-        "cancel" :"Cancel",
+        "cancel": "Cancel",
         "on-hold": "On Hold",
         "pay-print": "Pay & Print",
         "print": "Print",
         "return": "Return Invoice",
         "save-new-invoice": "Save new Invoice",
-        "cancel-return": "Cancel return process"
+        "cancel-return": "Cancel return process",
+        "cancel-invoice": "Cancel Invoice"
     },
-    "pagination":{
+    "pagination": {
         "next": "Next",
         "prev": "Previous"
     },
-    "category":{
+    "category": {
         "page-title": "Manage Categories"
     },
-    "brand":{
+    "brand": {
         "page-title": "Manage Brands",
         "store-brands": "Store Brands",
         "root": "Root Brand",
         "add-brand": "Add new Brand",
         "edit-brand": "Edit existing Brand"
     },
-    "item":{
+    "item": {
         "page-title": "Add/Edit Store Item",
         "new-item": "Add New Item",
         "title": "Title",
@@ -119,25 +123,51 @@
         "priceAfterDiscount": "Price after discount",
         "out-of-stock": "Out of Stock"
     },
-    "items":{
-        "page-title":"Store Products",
+    "items": {
+        "page-title": "Store Products",
         "filter": "Filter Items",
         "filter-barcode": "By BarCode",
         "filter-title": "By Title",
         "filter-stkqty": "Quantity less than or equal"
     },
-    "print-invoice":{
+    "print-invoice": {
         "page-title": "Print Simplified Tax Invoice",
         "invoiceNo": "Invoice No",
         "invoiceDate": "Invoice Date",
         "totalWithVat": "Total With VAT"
     },
-    "users":{
+    "invoiceTemplate":{
+        "title": "Generate Invoice From Template",
+        "description": "an Invoice will be generated based on a speicifc templated sent before to PTB for design.",
+        "invoiceInfo": "Invoice Information",
+        "customerInfo": "Customer Information",
+        "invoiceValuesInfo": "Detailed invoice amounts",
+        "othersInfo": "Other Information",
+        "issueDate": "Issue Date",
+        "dueDate": "Due Date",
+        "invoiceNo": "Invoice NO",
+        "customerName": "Customer Name",
+        "customerAddress": "Customer Address",
+        "customerRtn": "Customer Rtn",
+        "supplyNo": "Supply Contract No",
+        "workersCount": "Workers count",
+        "monthlyServiceVal": "Monthly service value",
+        "DailyServiceVal": "Daily service value",
+        "WorkingDaysVal": "Working days",
+        "OvertimeHourVal": "Overtime/hour value",
+        "OvertimeVal": "Overtime Hour",
+        "SubtotalVal": "Total due amount",
+        "VatVal": "VAT 15%",
+        "TotalVal": "Total Amount with VAT",
+        "totalWritten": "Total Amount with VAT",
+        "attachments": "Attachments"
+    },
+    "users": {
         "page-title": "Cashiers Management",
         "new-user": "Set/Update Cashier",
         "username": "Username",
         "password": "Password",
-        "fullname":"Full Name",
+        "fullname": "Full Name",
         "mobile": "Mobile",
         "status": "Account Status",
         "active": "Active",
@@ -147,7 +177,7 @@
     },
     "dashboard": {
         "selling-summary-title": "Selling Summary for Current Year",
-        "top-sold-items-title":"Top sold Items",
+        "top-sold-items-title": "Top sold Items",
         "yearly-data-title": "Yearly selling (Without VAT)",
         "total": "Total",
         "items": "Items Sold",
@@ -155,7 +185,7 @@
         "week": "This Week",
         "month": "This Month",
         "year": "This Year",
-        "monthly-linechart":{
+        "monthly-linechart": {
             "selling": "Selling in month",
             "revenue": "Revenue in month",
             "x-axis": "Months of the year",

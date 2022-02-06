@@ -9,11 +9,11 @@
         "logout": "خروج"
     },
     "login": {
-        "store-name":"منصة بيع PTB",
+        "store-name": "منصة بيع PTB",
         "username": "اسم المستخدم",
         "password": "كلمة السر",
         "btn-login": "دخول",
-        "forget-pass" : "نسيت كلمة السر",
+        "forget-pass": "نسيت كلمة السر",
         "forget-pass-info": "إعادة تعيين كلمة السر متاحة فقط لمدير النظام، يرجى التواصل مع مدير النظام لدى متجرك.",
         "register-link": "تسجيل بياناتك كمستخدم جديد"
     },
@@ -28,6 +28,7 @@
         "link-items": "منتجات المتجر",
         "link-users": "إدارة المحاسبين",
         "link-dashboard": "لوحة المبيعات",
+        "link-inv-template": "إصدار فاتورة من نموذج",
         "desc-direct-sell": "مناسب للبيع المباشر من خلال رقم المنتج",
         "desc-category-sell": "مناسب للبيع من خلال تصنيف المنتجات كالمطاعم و الكافيه",
         "desc-inquiry-invoice": "استعلام عن فاتورة محددة حسب رقم الفاتورة",
@@ -36,8 +37,9 @@
         "desc-categories": "يمكنك تقسيم منتجاتك و تصنيفها إلى مجموعات أو فئات حسب طبيعة عملك",
         "desc-brands": "يمكنك تحديد العلامات التجارية التي تبيعها و ربطها بالمنتجات",
         "desc-items": "إضافة و متابعة منتجات المتجر و الكميات المتوفرة في المخزن",
-        "desc-users" :"إضافة أو تعديل بيانات المحاسبين",
-        "desc-dashboard": "متابعة المبيعات اليومية و الشهرية و السنوية، و المنتجات الأكثر مبيعاً"
+        "desc-users": "إضافة أو تعديل بيانات المحاسبين",
+        "desc-dashboard": "متابعة المبيعات اليومية و الشهرية و السنوية، و المنتجات الأكثر مبيعاً",
+        "desc-inv-template": "إصدار فاتورة من نموذج تم تصميمه مسبقاً في النظام"
     },
     "barCode": "رقم المنتج",
     "item-title": "اسم المنتج",
@@ -66,10 +68,11 @@
         "change-qty": "الكمية",
         "change-price": "قيمة البيع"
     },
-    "invoice-status":{
+    "invoice-status": {
         "paid": "مدفوعة",
         "onHold": "مُعلقة",
-        "returned":"مرتجعة"
+        "returned": "مرتجعة",
+        "canceled": "تم إلغاؤها"
     },
     "button": {
         "add": "إضافة",
@@ -83,7 +86,8 @@
         "print": "طباعة",
         "return": "إرجاع الفاتورة",
         "save-new-invoice": "حفظ فاتورة جديدة",
-        "cancel-return": "إلغاء عملية الإرجاع"
+        "cancel-return": "إلغاء عملية الإرجاع",
+        "cancel-invoice": "إلغاء الفاتورة"
     },
     "pagination": {
         "next": "التالي",
@@ -126,18 +130,44 @@
         "filter-title": "اسم المنتج",
         "filter-stkqty": "الكمية أقل من أو تساوي"
     },
-    "print-invoice":{
+    "print-invoice": {
         "page-title": "طباعة فاتورة ضريبية مبسطة",
         "invoiceNo": "رقم الفاتورة",
         "invoiceDate": "تاريخ الفاتورة",
         "totalWithVat": "الاجمالي شامل الضريبة"
     },
-    "users":{
+    "invoiceTemplate":{
+        "title": "إصدار فاتورة من نموذج",
+        "description": "سيتم إصدار فاتورة حسب نموذج معين تم إرساله مسبقاً لشركة PTB لتصميم النموذج",
+        "invoiceInfo": "معلومات الفاتورة",
+        "customerInfo": "بيانات المنشأة المستلمة",
+        "invoiceValuesInfo": "تفاصيل قيمة الفاتورة",
+        "othersInfo": "معلومات أخرى",
+        "issueDate": "تاريخ الاصدار",
+        "dueDate": "تاريخ الاستحقاق",
+        "invoiceNo": "رقم الفاتورة",
+        "customerName": "اسم المنشأة",
+        "customerAddress": "عنوان المنشأة",
+        "customerRtn": "الرقم الضريبي للمنشأة",
+        "supplyNo": "رقم عقد التوريد",
+        "workersCount": "عدد العمال",
+        "monthlyServiceVal": "قيمة الخدمة الشهرية",
+        "DailyServiceVal": "قيمة الخدمة اليومية",
+        "WorkingDaysVal": "عدد أيام العمل",
+        "OvertimeHourVal": "قيمة ساعة الاضافي",
+        "OvertimeVal": "عدد ساعات الاضافي",
+        "SubtotalVal": "اجمالي المبلغ المستحق",
+        "VatVal": "ضريبة القيمة المضافة",
+        "TotalVal": "اجمالي المبلغ شامل الضريبة",
+        "totalWritten": "اجمالي المبلغ",
+        "attachments": "المرفقات"
+    },
+    "users": {
         "page-title": "التحكم بالمحاسبين",
         "new-user": "إضافة/تعديل محاسب جديد",
         "username": "اسم المستخدم",
         "password": "كلمة السر",
-        "fullname":"اسم المحاسب",
+        "fullname": "اسم المحاسب",
         "mobile": "رقم الجوال",
         "status": "حالة الحساب",
         "active": "فعال",
@@ -147,7 +177,7 @@
     },
     "dashboard": {
         "selling-summary-title": "ملخص المبيعات للسنة الحالية",
-        "top-sold-items-title":"المنتجات الأكثر مبيعاً",
+        "top-sold-items-title": "المنتجات الأكثر مبيعاً",
         "yearly-data-title": "المبيعات السنوية (بدون ضريبة)",
         "total": "المجموع",
         "items": "المنتجات المُباعة",
@@ -155,7 +185,7 @@
         "week": "هذا الأسبوع",
         "month": "هذا الشهر",
         "year": "هذه السنة",
-        "monthly-linechart":{
+        "monthly-linechart": {
             "selling": "المبيعات في الشهر",
             "revenue": "الأرباح فس الشهر",
             "x-axis": "أشهر السنة",
