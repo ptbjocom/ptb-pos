@@ -5,6 +5,8 @@
         "manage": "Manage Store",
         "manage-stores": "Manage All Stores",
         "reg-requests": "Registration Requests",
+        "gen-qr": "Generate QR for File",
+        "read-file": "View Private files",
         "language": "Language",
         "logout": "Logout"
     },

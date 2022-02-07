@@ -5,6 +5,8 @@
         "manage": "إدارة المتجر",
         "manage-stores": "إدارة المتاجر",
         "reg-requests": "طلبات التسجيل",
+        "gen-qr": "إصدار QR لملف خاص",
+        "read-file": "مشاهدة ملف خاص",
         "language": "اللغة",
         "logout": "خروج"
     },
