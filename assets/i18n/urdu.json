@@ -29,6 +29,7 @@
     "link-users": "کیشیئرز کا نظم کریں",
     "link-dashboard": "ڈیش بورڈ فروخت کرنا",
     "link-inv-template": "ٹیمپلیٹ انوائس بنائیں",
+    "link-b2b-template": "Generate Business Invoice (B2B)",
     "desc-direct-sell": "بار کوڈ کا استعمال کرتے ہوئے براہ راست پروڈکٹس فروخت کرنا",
     "desc-category-sell": "کیٹیگریز سیل0",
     "desc-inquiry-invoice": "کیٹیگریز سیل1",
@@ -39,7 +40,8 @@
     "desc-items": "کیٹیگریز سیل6",
     "desc-users": "کیٹیگریز سیل7",
     "desc-dashboard": "سب سے زیادہ فروخت ہونے والی مصنوعات کے ساتھ روزانہ، ماہانہ اور سالانہ فروخت دیکھیں۔",
-    "desc-inv-template": "پہلے سے طے شدہ ٹیمپلیٹ سے انوائس بنائیں"
+    "desc-inv-template": "پہلے سے طے شدہ ٹیمپلیٹ سے انوائس بنائیں",
+    "desc-b2b-template": "Generate Business to Business Invoice with VAT"
   },
   "barCode": "بار کوڈ",
   "item-title": "عنوان",

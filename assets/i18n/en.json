@@ -31,6 +31,7 @@
         "link-users": "Manage Cashiers",
         "link-dashboard": "Selling Dashboard",
         "link-inv-template": "Generate Template Invoice",
+        "link-b2b-template": "Generate Business Invoice (B2B)",
         "desc-direct-sell": "Selling products directly using BarCode",
         "desc-category-sell": "Selling products through categories, like Restaurants and Cafes",
         "desc-inquiry-invoice": "Search for specific invoice using its number",
@@ -41,7 +42,8 @@
         "desc-items": "Adding and following up on the store's products and the quantities available in the store",
         "desc-users": "Add new or edit existing cashiers",
         "desc-dashboard": "Watch daily, monthly, and yearly selling, with most sold products.",
-        "desc-inv-template": "Generate an Invoice from pre-defined template"
+        "desc-inv-template": "Generate an Invoice from pre-defined template",
+        "desc-b2b-template": "Generate Business to Business Invoice with VAT"
     },
     "barCode": "BarCode",
     "item-title": "Title",
@@ -68,7 +70,8 @@
         "on-hold-invoices": "On Hold Invoices",
         "invoice-search": "Enter the Invoice No to search for",
         "change-qty": "Qty",
-        "change-price": "Payment"
+        "change-price": "Payment",
+        "date": "Invoice Date"
     },
     "invoice-status": {
         "paid": "Paid",
