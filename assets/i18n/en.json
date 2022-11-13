@@ -32,6 +32,7 @@
         "link-dashboard": "Selling Dashboard",
         "link-inv-template": "Generate Template Invoice",
         "link-b2b-template": "Generate Business Invoice (B2B)",
+        "link-view-top-sold":"Top Sold Items",
         "desc-direct-sell": "Selling products directly using BarCode",
         "desc-category-sell": "Selling products through categories, like Restaurants and Cafes",
         "desc-inquiry-invoice": "Search for specific invoice using its number",
@@ -43,7 +44,8 @@
         "desc-users": "Add new or edit existing cashiers",
         "desc-dashboard": "Watch daily, monthly, and yearly selling, with most sold products.",
         "desc-inv-template": "Generate an Invoice from pre-defined template",
-        "desc-b2b-template": "Generate Business to Business Invoice with VAT"
+        "desc-b2b-template": "Generate Business to Business Invoice with VAT",
+        "desc-view-top-sold": "View most sold items in the year"
     },
     "barCode": "BarCode",
     "item-title": "Title",
